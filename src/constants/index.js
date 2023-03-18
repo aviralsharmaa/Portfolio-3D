@@ -4,7 +4,7 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    // typescript,
     html,
     css,
     reactjs,
@@ -14,7 +14,6 @@ import {
     mongodb,
     git,
     figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -23,6 +22,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    cpp,
+    dart,
+    flutter,
+    python,
+    vite,
+
   } from "../assets";
   
   export const navLinks = [
@@ -61,6 +66,14 @@ import {
   
   const technologies = [
     {
+      name: "C++ Programming",
+      icon: cpp,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -73,17 +86,14 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Vite",
+      icon: vite,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -101,16 +111,20 @@ import {
       icon: threejs,
     },
     {
+      name: "Flutter",
+      icon: flutter,
+    },
+    {
+      name: "Dart",
+      icon: dart,
+    },
+    {
       name: "git",
       icon: git,
     },
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   

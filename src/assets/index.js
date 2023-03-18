@@ -20,6 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import c from "./tech/c.png";
+import cpp from "./tech/cpp.png";
+import flutter from "./tech/flutter.png";
+import dart from "./tech/dart.png";
+import python from "./tech/python.png";
+import vite from "./tech/vite.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +66,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  vite,
+  c,
+  cpp,
+  dart,
+  flutter,
+  python
 };
