@@ -1,4 +1,5 @@
 import {
+    Roomie,
     mobile,
     backend,
     creator,
@@ -8,12 +9,12 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    // redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
+    // figma,
     meta,
     starbucks,
     tesla,
@@ -26,7 +27,9 @@ import {
     dart,
     flutter,
     python,
-    vite,
+    dapp,
+    Blithe,
+    // vite,
 
   } from "../assets";
   
@@ -51,12 +54,12 @@ import {
       icon: creator,
     },
     {
-      title: "Flutter App Developer",
-      icon: mobile,
-    },
-    {
       title: "Web Developer",
       icon: web,
+    },
+    {
+      title: "Android Developer",
+      icon: mobile,
     },
     {
       title: "Backend Developer",
@@ -86,14 +89,9 @@ import {
       icon: javascript,
     },
     {
-      name: "Vite",
-      icon: vite,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
-    
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -121,10 +119,6 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
   ];
   
@@ -212,9 +206,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Decentralized App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to cast their vote in home with use of blockchain technology. The private blockchain system hosted on the local computer use of ganashe and truffle. ",
       tags: [
         {
           name: "react",
@@ -229,50 +223,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: dapp,
+      source_code_link: "https://github.com/aviralsharmaa/D-voting-system",
     },
     {
-      name: "Job IT",
+      name: "Mental Health",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Welcome to our mental health website, where we strive to provide the best resources and support for those struggling with mental health issues. Our website is built using React, a JavaScript library for building user interfaces, and is powered by an Artificial Neural Network (ANN) for enhanced functionality.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "ANN",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "FirebaseAuthentication",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: Blithe,
+      source_code_link: "https://github.com/aviralsharmaa/Blithe-Mental-Health",
     },
     {
-      name: "Trip Guide",
+      name: "Roomie-App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Welcome to our house rental app, built with Flutter and Dart and utilizing Firebase authentication for a seamless and secure user experience. Our app is designed specifically for bachelors, making it easier than ever to find the perfect rental property.",
       tags: [
         {
-          name: "nextjs",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Dart",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "FirebaseAuth",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: Roomie,
+      source_code_link: "https://github.com/aviralsharmaa/roomie",
     },
   ];
   
